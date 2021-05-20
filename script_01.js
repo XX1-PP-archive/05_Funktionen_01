@@ -30,14 +30,27 @@ function ausgabeNamen()
 function ausgabeNamenParam(firstName) // Parameter
 {
    // wenn firstName leer , dann "nobody"
-   if (firstName == undefined || firstName == "") {
-    firstName = "nobody";
-   }
+    if (firstName == undefined || firstName == "")
+    {
+        firstName = "nobody";
+    }
    
     console.log("Hallo " + firstName + "!");
 }
 
-ausgabeNamenParam("Deniz"); //Call + Argument(e)
-ausgabeNamenParam("Frank");
-ausgabeNamenParam();
-ausgabeNamenParam(prompt("Bitte Namen eingeben:"));
+// ausgabeNamenParam("Deniz"); //Call + Argument(e)
+// ausgabeNamenParam("Frank");
+// ausgabeNamenParam();
+// ausgabeNamenParam(prompt("Bitte Namen eingeben:"));
+
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter
+
+function ausgabeNamenParams(firstName, familyName) // Parameter
+{
+    console.log("Hallo " + firstName + " " + familyName + "!");
+}
+
+ausgabeNamenParams("Frank","Ziehm"); 
+ausgabeNamenParams("Ziehm","Frank"); 
+ausgabeNamenParams(prompt("Vornamen??:"), prompt("Namen??:")); 
