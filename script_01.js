@@ -21,5 +21,49 @@ function ausgabeNamen()
     console.log("Hallo " + firstName + "!");
 }
 
-ausgabeNamen();
+//usgabeNamen();
 //console.log(firstName);  // Fehler --> lokal!!!
+
+/***** Funktion 02b  *****/
+// 2b. Paramentisierung + Datenübergabe von AUSSEN
+
+function ausgabeNamenParm(firstName) //Parameter
+{
+    // wenn firstname leer , dann "noboddy"
+if (firstName == undefined) {
+    firstName = "noboddy";
+}
+   
+    console.log("hallo " + firstName + "!");
+}
+ausgabeNamenParm("Deniz"); //call + Argument(e)
+ausgabeNamenParm("Frank ");
+ausgabeNamenParm();
+ausgabeNamenParm(prompt("Bitte Namen eingeben; "));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
