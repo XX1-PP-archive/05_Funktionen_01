@@ -74,6 +74,16 @@ function ausgabeNamenParams2(firstName, familyName) // Parameter
 
 /***** Funktionen 03b *****/
 
+
+/** 1.Job: String zusammsensetzen */
+output(getString("Frank","Ziehm")); // Test
+function getString(firstName,familyName) {
+    let gap = " ";
+    let outputStr = "Hallo " + firstName + gap + familyName + "!";
+    return outputStr; // Daten  ----> an die Stelle des calls
+    console.log("huhu");  // nach return wird die Fkt. abgebrochen
+}
+
 /** 2.Job: Ausgabe */
 //output("hi");  // Unit-Test  TDD
 function output(outputStr) 
