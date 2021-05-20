@@ -75,7 +75,7 @@ function ausgabeNamenParams2(firstName, familyName) // Parameter
 /***** Funktionen 03b *****/
 
 
-/** 1.Job: String zusammsensetzen */
+/** 1.Job: String zusammensetzen */
 output(getString("Frank","Ziehm")); // Test
 function getString(firstName,familyName) {
     let gap = " ";
