@@ -17,9 +17,27 @@ function test()
 
 function ausgabeNamen() 
 {
-    let firstName = "Frank";  // Variable --> lokal scope
+    let firstName = "Deniz";  // Variable --> lokal scope
     console.log("Hallo " + firstName + "!");
 }
 
-ausgabeNamen();
+//ausgabeNamen();
 //console.log(firstName);  // Fehler --> lokal!!!
+
+/***** Funktionen 02b *****/
+// 2b. Parametrisierung + Datenübergabe von AUSSEN
+
+function ausgabeNamenParam(firstName) // Parameter
+{
+   // wenn firstName leer , dann "nobody"
+   if (firstName == undefined || firstName == "") {
+    firstName = "nobody";
+   }
+   
+    console.log("Hallo " + firstName + "!");
+}
+
+ausgabeNamenParam("Deniz"); //Call + Argument(e)
+ausgabeNamenParam("Frank");
+ausgabeNamenParam();
+ausgabeNamenParam(prompt("Bitte Namen eingeben:"));
