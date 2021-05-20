@@ -3,6 +3,7 @@
 
 // 1. Kapselung von Codeblöcken
 
+<<<<<<< HEAD
 //Funktionsrumpf (body)
 function test()
 {
@@ -50,3 +51,14 @@ ausgabeName();
 
 
 
+=======
+// Funktionsrumpf (body)
+function test()
+{
+    console.log("Hallo Deniz!");
+}
+
+// Funktionsaufruf (call)
+//test();
+
+>>>>>>> 2986f3f73149fadf3e749aa0cbf40020f1a84c10
