@@ -21,7 +21,7 @@ function ausgabeNamen()
     console.log("Hallo " + firstName + "!");
 }
 
-<<<<<<< HEAD
+
 //usgabeNamen();
 //console.log(firstName);  // Fehler --> lokal!!!
 
@@ -37,56 +37,40 @@ if (firstName == undefined) {
    
     console.log("hallo " + firstName + "!");
 }
-ausgabeNamenParm("Deniz"); //call + Argument(e)
-ausgabeNamenParm("Frank ");
-ausgabeNamenParm();
-ausgabeNamenParm(prompt("Bitte Namen eingeben; "));
 
+// ausgabeNamenParm("Deniz"); //call + Argument(e)
+// ausgabeNamenParm("Frank ");
+// ausgabeNamenParm();
+// ausgabeNamenParm(prompt("Bitte Namen eingeben; "));
 
+/***** Funktion 02 c  *****/
+// 2c. Mehrere Parameter
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-//ausgabeNamen();
-//console.log(firstName);  // Fehler --> lokal!!!
-
-/***** Funktionen 02b *****/
-// 2b. Parametrisierung + Datenübergabe von AUSSEN
-
-function ausgabeNamenParam(firstName) // Parameter
+function ausgabeNamenParms(firstName, familyName) //Parameter
 {
-   // wenn firstName leer , dann "nobody"
-   if (firstName == undefined || firstName == "") {
-    firstName = "nobody";
-   }
-   
-    console.log("Hallo " + firstName + "!");
+    console.log("Hallo " + firstName + " " + familyName + "!");
 }
+    // ausgabeNamenParms("Frank" , "Ziehm");
+    // ausgabeNamenParms("Ziehm", "Frank ");
+    // ausgabeNamenParms(prompt("Vorname??:"),prompt("Name??:"));
 
-ausgabeNamenParam("Deniz"); //Call + Argument(e)
-ausgabeNamenParam("Frank");
-ausgabeNamenParam();
-ausgabeNamenParam(prompt("Bitte Namen eingeben:"));
->>>>>>> c1b582249393b1793282b23322367ce65ddd11f4
+
+/***** Funktion 03a *****/
+        //03a Vorbereitung
+        // 
+
+
+        function ausgabeNamenParms2(firstName, familyName) //Parameter
+        {
+            // 1. Job: string composing
+            let gap = " ";
+            let outputStr = "Hallo " + firstName + gap + familyName + "!";
+
+            // 2. Job: output
+            console.log(outputStr);          
+        }
+
+        ausgabeNamenParms2("Frank","Ziehm");
+
+        /***** Funktion 03b *****/
+        
