@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /***** Funktionen 01 *****/
 
@@ -133,3 +134,69 @@ ausgabeNamenParams("Frank","Ziehm");
 ausgabeNamenParams("Ziehm","Frank"); 
 ausgabeNamenParams(prompt("Vornamen??:"), prompt("Namen??:")); 
 >>>>>>> 36da4344242315a6f95343966b1970540de7f58b
+=======
+
+/***** Funktionen 01 *****/
+
+// 1. Kapselung von Codeblöcken
+
+<<<<<<< HEAD
+//Funktionsrumpf (body)
+function test()
+{
+    console.log("Hallo Deniz");    
+}
+
+// Finktionsaufruf (call)
+//test();
+
+/***** Funktionen 02a******/
+// 2a. Paramentiesierung + Datenrückgabe von INNEN
+
+ function ausgabeName()
+  {
+    let firstname = "Deniz";  
+    console.log("Hallo " + firstname + "!");
+  }
+
+ausgabeName();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+// Funktionsrumpf (body)
+function test()
+{
+    console.log("Hallo Deniz!");
+}
+
+// Funktionsaufruf (call)
+//test();
+
+>>>>>>> 2986f3f73149fadf3e749aa0cbf40020f1a84c10
+>>>>>>> b01c09085b0c7cedf4c10dd615aea277333d8e52
