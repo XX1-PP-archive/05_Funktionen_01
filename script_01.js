@@ -12,3 +12,14 @@ function test()
 // Funktionsaufruf (call)
 //test();
 
+/***** Funktionen 02a *****/
+// 2a. Parametrisierung + Datenübergabe von INNEN
+
+function ausgabeNamen() 
+{
+    let firstName = "Frank";  // Variable --> lokal scope
+    console.log("Hallo " + firstName + "!");
+}
+
+ausgabeNamen();
+//console.log(firstName);  // Fehler --> lokal!!!
