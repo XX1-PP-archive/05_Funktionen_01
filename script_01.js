@@ -70,6 +70,13 @@ function ausgabeNamenParams2(firstName, familyName) // Parameter
     console.log(outputStr);
 }
 
-ausgabeNamenParams2("Frank","Ziehm"); 
+//ausgabeNamenParams2("Frank","Ziehm"); 
 
 /***** Funktionen 03b *****/
+
+/** 2.Job: Ausgabe */
+//output("hi");  // Unit-Test  TDD
+function output(outputStr) 
+{
+    console.log(outputStr);
+}
